@@ -1,0 +1,215 @@
+.form-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 1;
+  border-radius: 5%;
+  border: 10px, solid,#fb0101;
+  
+  
+}
+
+.h1bg{
+  background-color: rgb(0, 135, 90);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.h1bg:hover{
+  background-color: rgb(40, 0, 72);
+  color: #76b852
+}
+
+h1{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20%;
+  width: 150%;
+}
+
+h2{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.a{
+  color: #970000;
+  border-radius: 10px;
+  padding: 5px 7px;
+  text-decoration: none;
+}
+
+.a:hover{ 
+  color: #ffffff;
+  background-color: #970000;
+  border-radius: 10px;
+  padding: 5px 7px;
+}
+
+.a:active{
+  color: #192729;
+  background-color: rgb(95, 255, 95);
+  border-radius: 10px;
+  padding: 5px 7px;
+}
+
+body {
+  background: #76b852; 
+  /*background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);*/
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+
+      
+}
+
+table
+{
+  position: center;
+  border-collapse: collapse;
+  width: 100%;
+  /*background-color: #0da86d;*/
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 10%;
+  
+}
+
+.login {
+  position: absolute;
+  background-color: #0a62aa;
+  color: black;
+}
+
+
+.login:hover
+{
+  background-color: rgb(53, 53, 53);
+  color: rgb(244, 111, 200);
+}
+
+.login:active
+{
+  background-color: rgb(255, 17, 17);
+  color: white;
+}
+
+.shape
+{
+  position: absolute;
+  font-size: 12px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.shape:hover
+{
+  font-size: 13px;
+  padding: 9px 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.shape:active
+{
+  font-size: 13px;
+  padding: 9px 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+ 
+}
+
+.submit
+{
+  background-color: green;
+  color: white;
+  
+}
+
+.submit:hover
+{
+  background-color: black;
+  color: white;
+  
+}
+
+.submit:active
+{
+  background-color: rgb(255, 17, 17);
+  color: white;
+
+}
+
+.reset{
+  background-color: white;
+  color: black;
+}
+
+.reset:hover
+{
+  background-color: black;
+  color: white;
+}
+
+.reset:active
+{
+  background-color: rgb(255, 17, 17);
+  color: white;
+  
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 6px 8px;
+  margin: 4px 0;
+  
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 6px 8px;
+  margin: 4px 0;
+  
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.overflow{
+  overflow: auto;
+  height: 100%;
+  margin-left: 2%;
+}
+
+.adata{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+  margin-top: 1%;
+  border-radius: 10px;
+}
